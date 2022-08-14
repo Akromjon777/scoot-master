@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>(Umarbek) Scoot-Multi-Page</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="modal"></div>
+
+    <nav class="nav container">
+      <button type="button" class="nav__hamburger">
+        <span class="sr-only">Toggle navigation menu</span>
+      </button>
+      <a href="index.html" class="logo nav__logo">
+        <span class="sr-only">Scoot</span>
+      </a>
+      <div class="nav__links--mobile">
+        <ul>
+          <li><a href="about.html" class="link">About</a></li>
+          <li><a href="locations.html" class="link">Location</a></li>
+          <li><a href="careers.html" class="link">Careers</a></li>
+        </ul>
+        <a class="btn nav__btn--mobile" href="#download">Get Scootin</a>
+      </div>
+      <ul class="nav__links links">
+        <li><a href="about.html" class="link">About</a></li>
+        <li><a href="locations.html" class="link">Location</a></li>
+        <li><a href="careers.html" class="link">Careers</a></li>
+      </ul>
+      <a class="btn nav__btn" href="#download">Get Scootin</a>
+    </nav>
+
+    <header class="design-header careers">
+      <div class="container">
+        <div class="heading-container">
+          <h3>Locations</h3>
+        </div>
+      </div>
+      <img
+        class="white-circles"
+        src="./patterns/white-circles.svg"
+        alt=""
+      />
+    </header>
+
+    <main id="main">
+      <section class="map">
+        <div class="container">
+          <div class="map__inner">
+            <img src="./images/world-map-desktop.png" alt="world map">
+            <h4 class="map__text new-york">New York</h4>
+            <h4 class="map__text london">London</h4>
+            <h4 class="map__text jakarta">Jakarta</h4>
+            <h4 class="map__text yokohama">Yokohama</h4>
+          </div>
+
+          <div class="message__box">
+            <h2>Your city not listed?</h2>
+            <p>
+              If you’d like to see Scoot in your hometown, be sure to let us
+              know. We track requests and plan launches based on demand. Feel
+              free to message us by clicking the link or messaging us on social.
+            </p>
+            <a href="#" class="btn">Message Us</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="container">
+          <div class="cta__title">
+            <h2>Sign up and Scoot off today</h2>
+          </div>
+          <div class="cta__buttons">
+            <a href="#"
+              ><img src="./icons/app-store.svg" alt="App Store"
+            /></a>
+            <a href="#"
+              ><img
+                src="icons/google-play.svg"
+                alt="Google Play Store"
+            /></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__links">
+          <img src="./images/logo.svg" alt="scoot" />
+          <ul class="footer__list">
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./locations.html">Location</a></li>
+            <li><a href="./careers.html">Careers</a></li>
+          </ul>
+          <div class="social__icons">
+            <img src="icons/facebook.svg" alt="" />
+            <img src="icons/twitter.svg" alt="" />
+            <img src="icons/instagram.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
